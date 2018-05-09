@@ -1,7 +1,7 @@
 ---
 templateKey: product-page
 title: Vores Bryg.
-image: /img/dark_logo_transparent_5.png
+image: /img/chemex.jpg
 heading: Øl der brygges
 description: >-
   Kaldi is the ultimate spot for coffee lovers who want to learn about their
