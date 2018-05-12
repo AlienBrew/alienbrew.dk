@@ -1,100 +1,61 @@
 ---
 templateKey: product-page
-title: Vores Bryg.
-image: /img/dark_logo_transparent.png
+title: AlienBrew's bryg
+image: /img/color_logo_with_background.png
 heading: Øl der brygges
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  Da det jo i bund og grund er for mig selv jeg brygger, så er det jo lidt med
+  forskel hvad der brygges. Jeg startede ud med at brygge all-grain kits. Og
+  hvis man ikke er til mere end det så er det jo perfekt, men nu efter at jeg
+  har fået et par bryg
 intro:
   blurbs:
-    - image: /img/coffee.png
-      text: >
-        We sell green and roasted coffee beans that are sourced directly from
-        independent farmers and farm cooperatives. We’re proud to offer a
-        variety of coffee beans grown with great care for the environment and
-        local communities. Check our post or contact us directly for current
-        availability.
-    - image: /img/coffee-gear.png
-      text: >
-        We offer a small, but carefully curated selection of brewing gear and
-        tools for every taste and experience level. No matter if you roast your
-        own beans or just bought your first french press, you’ll find a gadget
-        to fall in love with in our shop.
-    - image: /img/tutorials.png
-      text: >
-        Love a great cup of coffee, but never knew how to make one? Bought a
-        fancy new Chemex but have no clue how to use it? Don't worry, we’re here
-        to help. You can schedule a custom 1-on-1 consultation with our baristas
-        to learn anything you want to know about coffee roasting and brewing.
-        Email us or call the store for details.
-    - image: /img/meeting-space.png
-      text: >
-        We believe that good coffee has the power to bring people together.
-        That’s why we decided to turn a corner of our shop into a cozy meeting
-        space where you can hang out with fellow coffee lovers and learn about
-        coffee making techniques. All of the artwork on display there is for
-        sale. The full price you pay goes to the artist.
-  heading: What we offer
-  description: >
-    Kaldi is the ultimate spot for coffee lovers who want to learn about their
-    java’s origin and support the farmers that grew it. We take coffee
-    production, roasting and brewing seriously and we’re glad to pass that
-    knowledge to anyone. This is an edit via identity...
+    - image: /img/belgisk-wit-de-lux_2097879445.jpg
+      text: >-
+        Amerikansk rug ale - Miss american rye
+
+        Her gik det også galt, dog ikke med selve brygningen, men med
+        karboneringen. Der er af en eller anden årsag 2 forskellige måder det
+        kommer til udtryk på, Nogle flasker skyder brygget ud så man har en
+        lille fontæne, andre flasker er bare flade og kedelige... "pending
+        investigation"
+    - image: /img/jul2017_4752249.png
+      text: >-
+        Julebryg Anno 2017.
+
+        Den gik godt, den var ikke helt så klar som ønsket, men den smagte godt
+        trods lidt bundfald.
+    - image: /img/hjemmebryggerens-tjekkiske-pilsner-til-25-liters45_small.png
+      text: >-
+        Tjekkisk Pilsner - Bohemain pilsner.
+
+        Første bryg :-( den gik helt galt, brygget røg i kloaken..... Jeg bliver
+        nok nød til at prøve igen.
+  heading: ''
+  description: ''
 main:
-  heading: Great coffee with no compromises
-  description: >
-    We hold our coffee to the highest standards from the shrub to the cup.
-    That’s why we’re meticulous and transparent about each step of the coffee’s
-    journey. We personally visit each farm to make sure the conditions are
-    optimal for the plants, farmers and the local environment.
-  image1:
-    alt: A close-up of a paper filter filled with ground coffee
-    image: /img/products-grid3.jpg
-  image2:
-    alt: A green cup of a coffee on a wooden table
-    image: /img/products-grid2.jpg
-  image3:
-    alt: Coffee beans
-    image: /img/products-grid1.jpg
-testimonials:
-  - author: Elisabeth Kaurismäki
-    quote: >-
-      The first time I tried Kaldi’s coffee, I couldn’t even believe that was
-      the same thing I’ve been drinking every morning.
-  - author: Philipp Trommler
-    quote: >-
-      Kaldi is the place to go if you want the best quality coffee. I love their
-      stance on empowering farmers and transparency.
-full_image: /img/products-full-width.jpg
-pricing:
-  heading: Monthly subscriptions
+  heading: It's fun to brew
   description: >-
-    We make it easy to make great coffee a part of your life. Choose one of our
-    monthly subscription plans to receive great coffee at your doorstep each
-    month. Contact us about more details and payment info.
-  plans:
-    - description: Perfect for the drinker who likes to enjoy 1-2 cups per day.
-      items:
-        - 3 lbs of coffee per month
-        - Green or roasted beans"
-        - One or two varieties of beans"
-      plan: Small
-      price: '50'
-    - description: 'Great for avid drinkers, java-loving couples and bigger crowds'
-      items:
-        - 6 lbs of coffee per month
-        - Green or roasted beans
-        - Up to 4 different varieties of beans
-      plan: Big
-      price: '80'
-    - description: Want a few tiny batches from different varieties? Try our custom plan
-      items:
-        - Whatever you need
-        - Green or roasted beans
-        - Unlimited varieties
-      plan: Custom
-      price: '??'
+    Det er min holdning at det skal være sjovt at brygge, alle kan gøre det man
+    skal bare have lidt tålmodighed og en forstående kone, man bander og
+    rumstere i skabe og roder på køkkenbordet, hvis man ikke har indrettet et
+    sted hvor man kan brygge. 
+  image1:
+    alt: en dejlig øl
+    image: /img/29573008_10156377755759695_7841991165872277349_n.jpg
+  image2:
+    alt: yeast
+    image: /img/beeryeast.jpg
+  image3:
+    alt: Malt
+    image: /img/malt.jpg
+testimonials:
+  - author: Mig selv
+    quote: De øl er bare fantastiske ;-)
+full_image: /img/dark_logo_transparent.svg
+pricing:
+  heading: ''
+  description: ''
+  plans: []
 ---
+
