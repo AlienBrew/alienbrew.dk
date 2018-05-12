@@ -6,5 +6,5 @@ import ProductPagePreview from './preview-templates/ProductPagePreview'
 
 CMS.registerPreviewStyle('/styles.css')
 CMS.registerPreviewTemplate('omkring', AboutPagePreview)
-CMS.registerPreviewTemplate('products', ProductPagePreview)
+CMS.registerPreviewTemplate('bryg', ProductPagePreview)
 CMS.registerPreviewTemplate('blog', BlogPostPreview)
