@@ -35,7 +35,7 @@ const AboutPage = ({ data }) => {
   return (
     <AboutPageTemplate
       contentComponent={HTMLContent}
-      title={post.frontmatter.title}
+      
       content={post.html}
     />
   )
