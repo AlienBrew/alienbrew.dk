@@ -14,7 +14,7 @@ Det er en tanke jeg har gået med i mange år, det er nu ikke fordi jeg drikker 
 
 ## Hvad var så grunden til endelig at komme i gang.
 
-I sommeren 2017 fik jeg konstateret kræft, så da det chock havde fortaget sig lidt, tænkte jeg "nej fandme nej, nu skal det være", det har faktisk været den grundlæggene tanke bag mit liv siden da. Kræften skal ikke få lov til at vinde, og har jeg lyst til at lave noget, så skal den **IKKE **holde mig tilbage.
+I sommeren 2017 fik jeg konstateret kræft, så da det chock havde fortaget sig lidt, tænkte jeg "nej fandme nej, nu skal det være", det har faktisk været den grundlæggene tanke bag mit liv siden da. Kræften skal ikke få lov til at vinde, og har jeg lyst til at lave noget, så skal den IKKE holde mig tilbage.
 
 # Hvor holder AlienBrew til?
 
