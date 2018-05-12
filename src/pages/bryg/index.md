@@ -39,7 +39,7 @@ main:
     Det er min holdning at det skal være sjovt at brygge, alle kan gøre det man
     skal bare have lidt tålmodighed og en forstående kone, man bander og
     rumstere i skabe og roder på køkkenbordet, hvis man ikke har indrettet et
-    sted hvor man kan brygge. 
+    sted hvor man kan brygge.
   image1:
     alt: en dejlig øl
     image: /img/29573008_10156377755759695_7841991165872277349_n.jpg
@@ -53,9 +53,5 @@ testimonials:
   - author: Mig selv
     quote: De øl er bare fantastiske ;-)
 full_image: /img/dark_logo_transparent.svg
-pricing:
-  heading: ''
-  description: ''
-  plans: []
----
 
+---
