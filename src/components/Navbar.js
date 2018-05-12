@@ -15,7 +15,12 @@ const Navbar = () => (
         </Link>
       </div>
       <div className="navbar-start">
-
+      <Link className="navbar-item" to="/bryg">
+        Bryg
+      </Link>
+      <Link className="navbar-item" to="/omkring">
+        Omkring
+      </Link>
       </div>
       <div className="navbar-end">
 
