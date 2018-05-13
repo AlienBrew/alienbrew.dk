@@ -28,7 +28,7 @@ export const BlogPostTemplate = ({
             <PostContent content={content} />
             {tags && tags.length ? (
               <div style={{ marginTop: `4rem` }}>
-                <h4>Tags</h4>
+                <h4>Emner</h4>
                 <ul className="taglist">
                   {tags.map(tag => (
                     <li key={tag + `tag`}>
@@ -82,7 +82,7 @@ export const pageQuery = graphql`
       id
       html
       frontmatter {
-        date(formatString: "DD MM YYYY")
+        date(formatString: "DD-MM-YYYY")
         title
         description
         tags
