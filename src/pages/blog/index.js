@@ -44,7 +44,7 @@ export default class BlogPage extends React.Component {
   }
 }
 
-IndexPage.propTypes = {
+BlogPage.propTypes = {
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
       edges: PropTypes.array,
