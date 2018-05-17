@@ -13,6 +13,11 @@ const Navbar = () => (
             <img src={logo} alt="AlienBrew" style={{ width: '90px' }} />
           </figure>
         </Link>
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        </a>
       </div>
       <div className="navbar-start">
       <Link className="navbar-item" to="/bryg">
@@ -25,11 +30,7 @@ const Navbar = () => (
       <div className="navbar-end">
 
 
-      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-      </a>
+
       </div>
     </div>
   </nav>
