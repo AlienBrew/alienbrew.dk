@@ -24,6 +24,12 @@ const Navbar = () => (
       </div>
       <div className="navbar-end">
 
+
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      </a>
       </div>
     </div>
   </nav>
