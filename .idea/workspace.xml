@@ -64,8 +64,8 @@
       <file leaf-file-name="Navbar.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Navbar.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="795">
+              <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -103,8 +103,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="150" />
-    <option name="y" value="23" />
+    <option name="x" value="82" />
+    <option name="y" value="35" />
     <option name="width" value="1530" />
     <option name="height" value="978" />
   </component>
@@ -199,7 +199,7 @@
       <option name="presentableId" value="Default" />
       <updated>1526638589383</updated>
       <workItem from="1526638592459" duration="140000" />
-      <workItem from="1526638755779" duration="3789000" />
+      <workItem from="1526638755779" duration="4795000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1526640089959</created>
@@ -257,14 +257,28 @@
       <option name="project" value="LOCAL" />
       <updated>1526642582109</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="test 5-3">
+      <created>1526642927546</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1526642927546</updated>
+    </task>
+    <task id="LOCAL-00010" summary="test 5-4">
+      <created>1526643682370</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1526643682370</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3929000" />
+    <option name="totallyTimeSpent" value="4935000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="150" y="23" width="1530" height="978" extended-state="0" />
+    <frame x="82" y="35" width="1530" height="978" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22875817" />
@@ -303,7 +317,9 @@
     <MESSAGE value="test 5" />
     <MESSAGE value="test 5-1" />
     <MESSAGE value="test 5-2" />
-    <option name="LAST_COMMIT_MESSAGE" value="test 5-2" />
+    <MESSAGE value="test 5-3" />
+    <MESSAGE value="test 5-4" />
+    <option name="LAST_COMMIT_MESSAGE" value="test 5-4" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/pages/index.js">
@@ -349,10 +365,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/layouts/all.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Navbar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="795">
+          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
