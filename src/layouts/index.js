@@ -11,6 +11,7 @@ const TemplateWrapper = ({ children }) => (
     <Navbar />
     <div>{children()}</div>
   </div>
+  <script>
   function hamburgerHelper(){
     document.querySelector('.navbar-burger').addEventListener("click", toggleNav);
 
@@ -23,6 +24,7 @@ const TemplateWrapper = ({ children }) => (
             }
     }
 }
+</script>
 )
 
 TemplateWrapper.propTypes = {
