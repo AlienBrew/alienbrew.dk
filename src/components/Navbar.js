@@ -12,7 +12,7 @@ function toggleNav (event) {
   })
 }
 
-function state{
+function state (event) {
   isActive: false
 }
 
