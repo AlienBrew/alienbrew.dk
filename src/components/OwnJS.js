@@ -1,5 +1,5 @@
-state = {
-  isActive: false,
+state = () => {
+  isActive: false
 }
 
 toggleNav = () => {
