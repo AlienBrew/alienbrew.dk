@@ -23,7 +23,7 @@ const Navbar = () => (
         <span aria-hidden="true"></span>
         </button>
       </div>
-      <div className="navbar-menu">
+      <div className={ this.state.isActive ? 'navbar-menu is-active' : 'navbar-menu'}>
       <div className="navbar-start">
       <Link className="navbar-item" to="/bryg">
         Bryg
