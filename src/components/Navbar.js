@@ -5,7 +5,18 @@ import logo from '../img/logo.svg'
 
 const Navbar = () => (
 
-
+  <script type="text/javascript">
+    document.getElementById("nav-toggle").addEventListener ("click", toggleNav);
+    function toggleNav() {
+    var nav = document.getElementById("nav-menu");
+    var className = nav.getAttribute("class");
+    if(className == "nav-right nav-menu") {
+    nav.className = "nav-right nav-menu is-active";
+  } else {
+    nav.className = "nav-right nav-menu";
+  }
+  }
+  </script>
 
   <nav className="navbar is-transparent">
     <div className="container">
