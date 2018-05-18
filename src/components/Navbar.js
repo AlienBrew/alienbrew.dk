@@ -12,10 +12,12 @@ function toggleNav (event) {
   })
 }
 
+function state{
+  isActive: false
+}
+
 const Navbar = () => (
-  state = {
-    isActive: false,
-  };
+
 
 
   <nav className="navbar is-transparent">
