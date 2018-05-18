@@ -4,17 +4,6 @@ import Link from 'gatsby-link'
 import github from '../img/github-icon.svg'
 import logo from '../img/logo.svg'
 
-function toggleNav (event) {
-  this.setState(prevState => {
-    return ({
-      isActive: !prevState.isActive
-    });
-  })
-}
-
-function state (event) {
-  isActive: false
-}
 
 const Navbar = () => (
 
