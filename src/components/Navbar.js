@@ -4,19 +4,19 @@ import Link from 'gatsby-link'
 import github from '../img/github-icon.svg'
 import logo from '../img/logo.svg'
 
-const toggleNav = () => {
+toggleNav: function (event) {
   this.setState(prevState => {
-    return ({
+    return {
       isActive: !prevState.isActive
     });
+    console.log("isActive")
   })
-};
-
-const state = () =>{
-  isActive: false
-};
+}
 
 const Navbar = () => (
+  state = {
+    isActive: false,
+  };
 
 
   <nav className="navbar is-transparent">
@@ -27,7 +27,7 @@ const Navbar = () => (
             <img src={logo} alt="AlienBrew" style={{ width: '90px' }} />
           </figure>
         </Link>
-        <button className="button navbar-burger" onClick={this.toggleNav}>
+        <button className="button navbar-burger" onClick={ this.toggleNav }>
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
