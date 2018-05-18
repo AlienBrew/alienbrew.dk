@@ -1,7 +1,5 @@
 import React from 'react'
 import Link from 'gatsby-link'
-
-import github from '../img/github-icon.svg'
 import logo from '../img/logo.svg'
 
 
@@ -17,13 +15,13 @@ const Navbar = () => (
             <img src={logo} alt="AlienBrew" style={{ width: '90px' }} />
           </figure>
         </Link>
-        <button className="button navbar-burger" onClick={this.toggleNav}>
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-        </button>
+        <a role="button" className="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+        <span aria-hidden="true" />
+        <span aria-hidden="true" />
+        <span aria-hidden="true" />
+        </a>
       </div>
-      <div className={ this.state.isActive ? 'navbar-menu is-active' : 'navbar-menu'}>
+      <div className="navbar-menu" id="navMenu">
       <div className="navbar-start">
       <Link className="navbar-item" to="/bryg">
         Bryg
