@@ -16,7 +16,7 @@ const Navbar = () => (
             <img src={logo} alt="AlienBrew" style={{ width: '90px' }} />
           </figure>
         </Link>
-        <button className="button navbar-burger" >
+        <button className="button navbar-burger" onClick={this.toggleNav}>
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
