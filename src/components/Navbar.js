@@ -19,6 +19,7 @@ const Navbar = () => (
         <span aria-hidden="true"></span>
         </div>
       </div>
+      <div className="nabbar-menu" id="navMenu">
       <div className="navbar-start">
       <Link className="navbar-item" to="/bryg">
         Bryg
@@ -28,9 +29,7 @@ const Navbar = () => (
       </Link>
       </div>
       <div className="navbar-end">
-
-
-
+      </div>
       </div>
     </div>
   </nav>
