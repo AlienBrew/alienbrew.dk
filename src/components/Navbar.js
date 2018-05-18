@@ -36,12 +36,12 @@ const Navbar = () => (
       </div>
     </div>
   </nav>
-  <script>
+  <script
 dangerouslySetInnerHTML={{
   __html: `
             var name = 'world';
             console.log('Hello ' + name);
-        `
+        `,
 }}
 />
 
