@@ -13,11 +13,11 @@ const Navbar = () => (
             <img src={logo} alt="AlienBrew" style={{ width: '90px' }} />
           </figure>
         </Link>
-        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+        <div className="navbar-burger burger" data-target="navMenu">
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
-        </a>
+        </div>
       </div>
       <div className="navbar-start">
       <Link className="navbar-item" to="/bryg">
@@ -34,14 +34,7 @@ const Navbar = () => (
       </div>
     </div>
   </nav>
-  (function() {
-    var burger = document.querySelector('.nav-toggle');
-    var menu = document.querySelector('.nav-menu');
-    burger.addEventListener('click', function() {
-        burger.classList.toggle('is-active');
-        menu.classList.toggle('is-active');
-    });
-})();
+
 )
 
 export default Navbar
