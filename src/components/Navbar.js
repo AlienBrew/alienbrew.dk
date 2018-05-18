@@ -4,6 +4,16 @@ import Link from 'gatsby-link'
 import github from '../img/github-icon.svg'
 import logo from '../img/logo.svg'
 
+state = {
+   isActive: false,
+ }
+
+ toggleNav = () => {
+   this.setState(prevState => ({
+     isActive: !prevState.isActive
+   }))
+}
+
 const Navbar = () => (
   <nav className="navbar is-transparent">
     <div className="container">

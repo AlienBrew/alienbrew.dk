@@ -5,15 +5,7 @@ import logo from '../img/alienbrew_logo.svg'
 
 export default class IndexPage extends React.Component {
 
-  state = {
-     isActive: false,
-   }
 
-   toggleNav = () => {
-     this.setState(prevState => ({
-       isActive: !prevState.isActive
-     }))
- }
 
   render() {
     const { data } = this.props
