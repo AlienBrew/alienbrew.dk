@@ -4,6 +4,17 @@ import Link from 'gatsby-link'
 import logo from '../img/alienbrew_logo.svg'
 
 export default class IndexPage extends React.Component {
+
+  state = {
+     isActive: false,
+   }
+
+   toggleNav = () => {
+     this.setState(prevState => ({
+       isActive: !prevState.isActive
+     }))
+ }
+
   render() {
     const { data } = this.props
     const { edges: posts } = data.allMarkdownRemark
@@ -15,7 +26,7 @@ export default class IndexPage extends React.Component {
             <img src={logo} />
 
           </div>
-          
+
         </div>
       </section>
     )

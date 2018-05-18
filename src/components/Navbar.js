@@ -13,13 +13,13 @@ const Navbar = () => (
             <img src={logo} alt="AlienBrew" style={{ width: '90px' }} />
           </figure>
         </Link>
-        <div className="navbar-burger burger" data-target="navMenu">
+        <button className="button navbar-burger" onClick={this.toggleNav}>
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
-        </div>
+        </button>
       </div>
-      <div className="nabbar-menu" id="navMenu">
+      <div className={ this.state.isActive ? 'navbar-menu is-active' : 'navbar-menu'}>
       <div className="navbar-start">
       <Link className="navbar-item" to="/bryg">
         Bryg
