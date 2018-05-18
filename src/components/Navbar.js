@@ -7,7 +7,17 @@ import logo from '../img/logo.svg'
 
 
 const Navbar = () => (
+  state = {
+    isActive: false,
+  };
 
+toggleNav = () => {
+  this.setState(prevState => {
+    return ({
+      isActive: !prevState.isActive
+    });
+  })
+};
   <nav className="navbar is-transparent">
     <div className="container">
       <div className="navbar-brand">
