@@ -36,14 +36,7 @@ const Navbar = () => (
       </div>
     </div>
   </nav>
-  <script
-dangerouslySetInnerHTML={{
-  __html: `
-            var name = 'world';
-            console.log('Hello ' + name);
-        `,
-}}
-/>
+
 
 );
 
