@@ -15,12 +15,14 @@ const Navbar = () => (
             <img src={logo} alt="AlienBrew" style={{ width: '90px' }} />
           </figure>
         </Link>
+
         <a role="button" className="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
         <span aria-hidden="true" />
         <span aria-hidden="true" />
         <span aria-hidden="true" />
         </a>
       </div>
+      <span className="nav-toggle" onClick="document.querySelector('.navbar-menu').classList.toggle('is-active');"></span>
       <div className="navbar-menu" id="navMenu">
       <div className="navbar-start">
       <Link className="navbar-item" to="/bryg">
